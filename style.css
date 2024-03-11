@@ -1,0 +1,95 @@
+body
+{
+    background-image: url("./Attachments/img11.jpg");
+
+}
+
+.container
+{
+    opacity: 60%;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 1fr 0.25fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    height: 100vh;
+    grid-gap: 5px;
+}
+
+#heading_tab
+{
+    background-color: skyblue;
+    grid-area: 1/ 1/ 2/ -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.footer_tab
+{
+    background-color: magenta;
+    grid-area: 4/ 1/ 5/ -1;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.first_block
+{
+    background-color: grey;
+    grid-area: 2/ 1/ 4/ 2;
+}
+
+.last_block
+{
+    background-color: grey;
+    grid-area: 2/ 4/ 4/ 5; 
+}
+
+.buttons
+{
+    border: 5px solid black;
+    border-radius: 15%;
+    height: 70%;
+    width: 30%;
+    margin: 40px;
+}
+
+.b1
+{
+    background-color: green;
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    color: red;
+   
+}
+
+
+.b2
+{
+    background-color: red;
+    display: flex;
+    align-items: end;
+}
+
+
+.b3
+{
+    background-color: yellow;
+    display: flex;
+    justify-content:end;
+    color: red;
+
+}
+
+.b4
+{
+    background-color: blue;
+    display: flex;
+}
+
+.br_rad
+{
+    border-radius: 4%;
+}
