@@ -78,6 +78,10 @@ function generate_random(k)
         test.push(nums);
     }
     button_disabled();
+    document.querySelector("#bt1").style.backgroundColor="white";
+    document.querySelector("#bt2").style.backgroundColor="white";
+    document.querySelector("#bt3").style.backgroundColor="white";
+    document.querySelector("#bt4").style.backgroundColor="white";
     play(test);
 }
 
